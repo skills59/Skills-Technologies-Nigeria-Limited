@@ -10,3 +10,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 
+Lunching the files the way they are might result to an error
+notice that the node_modules folder and the build folder are now present in the app 
+
+results from error should refere you to reinstall the missing dependencies which should resolve the issue.
+
