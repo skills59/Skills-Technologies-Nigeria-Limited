@@ -1,0 +1,310 @@
+
+:root {
+  --blue: #5e72e4;
+  --indigo: #5603ad;
+  --purple: #8965e0;
+  --pink: #f3a4b5;
+  --red: #f5365c;
+  --orange: #fb6340;
+  --yellow: #ffd600;
+  --green: #2dce89;
+  --teal: #11cdef;
+  --cyan: #2bffc6;
+  --skilly:#a8cead;
+  --white: #ffffff;
+  --gray: #6c757d;
+  --gray-dark: #32325d;
+  --light: #ced4da;
+  --lighter: #e9ecef;
+  --primary: #e14eca;
+  --secondary: #f4f5f7;
+  --success: #00f2c3;
+  --info: #1d8cf8;
+  --warning: #ff8d72;
+  --danger: #fd5d93;
+  --light: #adb5bd;
+  --dark: #212529;
+  --default: #344675;
+  --white: #ffffff;
+  --neutral: #ffffff;
+  --darker: black;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+ 
+
+/* in the Beninging lol  */
+body {
+  line-height: 1.7;
+  color: var(--white);
+  font-weight: 300;
+  font-size: 1.1rem;
+  background-color: #a8cead;  
+
+  }
+  
+.btn {
+  border: solid 1px var(--secondaryColor);
+  background: var(--secondaryColor);
+  border-radius: 0.4rem;
+  text-decoration: none;
+  color: var(--mainWhite);
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  margin: 0 0.5rem;
+}
+
+/* Navbar */
+.site-logo img{
+	position: relative;
+	font-weight: 900;
+	font-size: 1.3rem; }
+
+.site-logo a {
+	color: white; }
+
+.site-navbar {
+  margin-bottom: 0px;
+  z-index: 1999;
+  position: absolute;
+  width: 93%; 
+}
+
+.site-navbar .container-fluid {
+	padding-left: 7rem;
+  padding-right: 7rem; 
+}
+    @media (max-width: 1199.98px)
+    {		
+.site-navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px; } 
+}
+	
+.site-navbar .site-navigation .site-menu {
+    margin-bottom: 0; 
+}
+  
+.site-navbar .site-navigation .site-menu .active {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      padding: 5px 20px; 
+}
+  
+.site-navbar .site-navigation .site-menu > li {
+      display: inline-block; 
+}
+
+ .site-navbar .site-navigation .site-menu > li > a {
+        padding: 5px 20px;
+        color: white;
+        display: inline-block;
+        text-decoration: none !important; 
+}
+  
+.site-navbar .site-navigation .site-menu > li > a:hover {
+        color: green; 
+}
+/* end of navigation bar gan gan sha*/
+
+
+/*mobile menuu sha*/
+.site-mobile-menu {
+  width: 300px;
+  position: fixed;
+  right: 0;
+  z-index: 2000;
+  padding-top: 20px;
+  background: rgba(29, 46, 36, 0.842);
+  height: calc(100vh);
+    -webkit-transform: translateX(110%);
+    -ms-transform: translateX(110%);
+  transform: translateX(110%);
+    -webkit-box-shadow: -10px 0 20px -10px rgba(88, 131, 125, 0.1);
+  box-shadow: -10px 0 20px -10px rgba(160, 86, 86, 0.1);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out; 
+}
+
+.offcanvas-menu .site-mobile-menu {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+  transform: translateX(0%); }
+    
+.site-mobile-menu .site-mobile-menu-header {
+  width: 100%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px; }
+    
+.site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
+  float: right;    /* the X */
+  margin-top: 8px; 
+  padding-right: 0px;
+}
+  
+
+/*menu text sha important*/
+.menu-nav {
+  padding: 4rem 0 2rem 0;
+  border-bottom: solid 2px var(--primaryColor);
+}
+
+.menu-nav ul {
+  list-style-type: none;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+.menu-nav li {
+  padding: 0.7rem 0;
+  display: block;
+  font-size: 1.5rem;
+  list-style: none;
+  color: var(--white);
+  text-align: left;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+/* end of the mobile menu nav text*/
+
+
+
+/*the remaining body parts sha*/
+.index-page,
+.about-page,
+.service-page,
+.contact-page {
+  background-image: url("/assets/images/Portfolio/dots.PNG");
+  background-size: contain;
+}
+
+/*.index-page .page-header {
+  height: 100vh;
+}*/
+
+.index-page .page-header .container>.content-center.brand .h1-seo{
+  color: #ffffff;
+  font-weight: 600px;
+  font-size: 55px;
+  text-transform: capitalize; 
+  
+}
+
+.index-page .page-header .container>.content-center.brand h3 {
+  color: #ffffff;
+  text-transform: capitalize; 
+  font-weight: 600px;
+}
+
+
+.header-filter {
+  position: relative;
+}
+
+.header-filter .container {
+  z-index: 2;
+  position: relative;
+}
+
+.page-header.header-filter:after {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*body sha*/
+        
+  
+/*background circls and squares sha*/
+.index-page .squares {
+  animation: move-left-right 1s infinite;
+  background: #54f56f;
+  background: -webkit-linear-gradient(0deg, #54f56a 0%, #4ee1a4 100%);
+  background: -o-linear-gradient(0deg, #6ff554 0%, #4ee1b5 100%);
+  background: -moz-linear-gradient(0deg, #54ddf5 0%, #78e14e 100%);
+  background: linear-gradient(0deg, #54f5c5 0%, #4ee17a 100%);
+  position: absolute;
+  transition: 0.5s ease-out;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.index-page .squares.square1 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.index-page .squares.square2 {
+  animation: move-left-right 6s infinite;
+  height: 200px;
+  width: 200px;
+  opacity: 0.4;
+  right: 1%;
+  top: -12%;
+}
+
+.index-page .squares.square3 {
+  animation: move-left-right 5s infinite;
+  height: 200px;
+  width: 200px;
+  opacity: 0.1;
+  left: -5%;
+  bottom: 0%;
+}
+
+.index-page .squares.square4 {
+  animation: move-left-right 10s infinite;
+  height: 100px;
+  width: 100px;
+  opacity: 0.9;
+  right: 27%;
+  top: 70%;
+}
+
+.index-page .squares.square5 {
+  animation: move-left-right 6s infinite;
+  height: 250px;
+  width: 250px;
+  opacity: 0.1;
+  left: 32%;
+  bottom: 29%;
+}
+
+.index-page .squares.square6 {
+  animation: move-left-right 9s infinite;
+  left: 10%;
+  top: 35%;
+  height: 80px;
+  width: 80px;
+  opacity: 0.8;
+}
+
+.index-page .squares.square7 {
+  animation: move-left-right 3s infinite;
+  width: 100px;
+  height: 100px;
+  right: -1%;
+  bottom: 0%;
+  opacity: 0.1;
+}
+
+/*end of background circles and squares */
+	
+	
+	
