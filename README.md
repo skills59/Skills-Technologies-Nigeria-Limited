@@ -15,3 +15,4 @@ because the node_modules folder is not present in the app you should install thi
 
 results from error should refere you to reinstall the missing dependencies which should resolve the issue.
 
+![Skillstech](https://user-images.githubusercontent.com/56154525/196946010-cbaa08d4-6319-43d5-99df-51823177b1cd.png)
