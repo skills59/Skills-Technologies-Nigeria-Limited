@@ -18,4 +18,4 @@ results from error should refere you to reinstall the missing dependencies which
 ![Skillstech](https://user-images.githubusercontent.com/56154525/202750658-7fabae3e-b831-4da6-9096-1d22ac27c1af.png)
 
 
-Live Project can be fountd here https://skillstechnologies.ga/
+Live Project can be fountd here http://skillstechnologies.ga/
